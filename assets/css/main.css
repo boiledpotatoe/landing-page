@@ -32,6 +32,49 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+/* Default (light) mode styles */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s; /* Smooth transition */
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#theme-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: inherit; /* Inherit text color to match light/dark mode */
+    transition: color 0.5s; /* Smooth transition for color change */
+
+	position: absolute;
+    top: 10px;
+    left: 10px;
+    /* Add some padding and other styling as needed */
+    padding: 10px;
+}
+
+#theme-toggle:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+/* Reset some default margin/padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Optional: Additional styling for the icon */
+#theme-icon {
+    font-size: 30px; /* Change as needed */
+}
 
 ol, ul {
 	list-style: none;
