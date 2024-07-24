@@ -45,7 +45,7 @@ body.dark-mode {
     color: white;
 }
 
-.theme-toggle {
+#theme-toggle {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -60,7 +60,7 @@ body.dark-mode {
     padding: 10px;
 }
 
-.theme-toggle:focus {
+#theme-toggle:focus {
     outline: none; /* Remove default focus outline */
 }
 
@@ -72,7 +72,7 @@ body, html {
 
 
 /* Optional: Additional styling for the icon */
-.theme-icon {
+#theme-icon {
     font-size: 30px; /* Change as needed */
 }
 
