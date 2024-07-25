@@ -76,6 +76,7 @@ body, html {
 #theme-icon {
     font-size: 30px; /* Change as needed */
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -115,8 +116,9 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
 
+
+/* Basic */
 	html {
 		box-sizing: border-box;
 	}
@@ -189,11 +191,6 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-	h1 {
-		font-size: 2em;
-		line-height: 1.5em;
-		text-align: left;
-	}
 /* Optional: Additional styling for the image */
 #header .image.avatar img {
     max-width: auto; /* Set a maximum width */
@@ -204,6 +201,12 @@ input, select, textarea {
     align-items: center;
     justify-content: flex-start; /* Align items to the start (left) */
 }
+	h1 {
+		font-size: 2em;
+		line-height: 1.5em;
+		text-align: left;
+	}
+
 
 	h2 {
 		font-size: 1.5em;
