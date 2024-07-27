@@ -139,3 +139,23 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('Theme toggle button not found.');
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const headerText = "Hello there, Welcome to my portfolio!";
+    const typingHeaderElement = document.getElementById("typing-header");
+    const cursorElement = document.getElementById("cursor");
+    let index = 0;
+
+    function typeHeaderText() {
+        if (index < headerText.length) {
+            typingHeaderElement.textContent += headerText.charAt(index);
+            index++;
+            setTimeout(typeHeaderText, Math.random() * (150 - 50) + 50); // Random typing speed between 50ms and 150ms
+        } else {
+            cursorElement.style.display = 'none'; // Hide cursor after typing
+        }
+    }
+
+    typeHeaderText();
+});
+
