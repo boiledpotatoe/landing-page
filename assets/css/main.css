@@ -301,7 +301,7 @@ input, select, textarea {
 		font-weight: bold;
 		font-size: 1em;
 		color: black;
-		animation: blink 0.7s infinite;
+		animation: blink 0.7s infinite; 
 		position: absolute;
 		right: calc(50% - 5px); /* Adjust positioning as needed */
 	}
