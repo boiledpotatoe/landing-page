@@ -157,5 +157,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     typeHeaderText();
-});
+}); 
 
