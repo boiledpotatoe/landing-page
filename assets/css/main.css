@@ -201,6 +201,30 @@ input, select, textarea {
     align-items: center;
     justify-content: flex-start; /* Align items to the start (left) */
 }
+
+ #header .image.avatar img {
+    max-width: auto; /* Set a maximum width */
+    height: auto;
+    padding-left: 24px;
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	text-align: center;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; /* Align items to the start (left) */
+}
+
+
+
+
+
+
+
+
+
+
+
 	h1 {
 		font-size: 2em;
 		line-height: 1.5em;
