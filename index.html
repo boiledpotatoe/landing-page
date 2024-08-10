@@ -30,6 +30,18 @@
             padding: 20px;
             border-radius: 10px;
         }
+
+        /* Add media query for smaller devices */
+        @media (max-width: 768px) {
+            #header {
+                background-size: contain;
+                height: auto;
+                padding: 50px 0;
+            }
+            #header h1 {
+                font-size: 1.5rem;
+            }
+        }
     </style>
 </head>
 <body class="is-preload">
